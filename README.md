@@ -14,6 +14,7 @@
 <br>
 
 ## Contents
+- [AI Coding Design Principles](#ai-coding-design-principles)
 - [Programming language design patterns](#programming-language-design-patterns)
 - [General Architecture](#general-architecture)
 - [Cloud Architecture](#cloud-architecture)
@@ -27,6 +28,12 @@
 - [Mobile](#mobile)
 - [Front End Development](#front-end-development)
 - [Security](#security)
+
+<br>
+
+## AI Coding Design Principles
+
+- [AI Coding Design Principles & Value Assessment](ai-coding-principles.md) - Comprehensive guide on design principles for AI Coding and AI Agent development, including SOLID, KISS, DRY, and architecture patterns.
 
 <br>
 
