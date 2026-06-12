@@ -1,26 +1,46 @@
 # Contribution Guidelines
 
-Please ensure your pull request adheres to the following guidelines:
+## What we're looking for
 
-- Good design patterns resources should describe and explain several patterns (not describe a single pattern only).
-- Search previous suggestions before making a new one, as yours may be a duplicate.
-- Use the following format: `[name](link) - Description.`
-- New categories, or improvements to the existing categorization are welcome.
-- Keep descriptions short and simple, but descriptive.
-- End all descriptions with a full stop/period.
-- Check your spelling and grammar.
-- The pull request should include a link to the package and why it should be included.
-- Patterns should be software related
+This repository focuses on design patterns for the AGI era. We accept contributions in these categories:
 
+### 🧱 永恒核心模式
+Patterns that remain fundamental regardless of how code is generated. Must include:
+- Why this pattern is timeless
+- How it applies in AI-assisted development contexts
 
-Thank you for your suggestions!
+### 🛠 仍很重要的模式
+Patterns still relevant today but being abstracted by AI tooling. Must include:
+- Why it's still worth learning
+- Where AI is changing how we implement it
 
-# Contribution to GitHub steps
+### 🔄 AGI 时代的全新模式
+**This is our highest priority area.** New patterns emerging around:
+- Agent orchestration (ReAct, Plan-Execute, Multi-Agent)
+- MCP / tool integration design
+- Skill and workflow composition
+- Human-AI collaboration
+- RAG and knowledge management
+- Code generation and verification
 
-- Fork it!
-- Create your branch: git checkout -b my-new-branch
-- Commit your changes: git commit -am 'fix stuff'
-- Push to the branch: git push origin my-new-branch
-- Submit a pull request
+### 📖 特定领域模式
+Domain-specific patterns (IoT, Big Data, Mobile, etc.) — accepted but lower priority.
 
-(or manually edit the readme file in github and create a pull request)
+## Guidelines
+
+- Each resource should be software-pattern-related and AGI-era relevant.
+- Use format: `[name](link) — Description (with AGI era note if applicable).`
+- Keep descriptions concise but informative — explain *why* it matters in the AGI era.
+- Check for duplicates before submitting.
+- For classic patterns, add your AGI-era interpretation in the description.
+- Check spelling and grammar.
+
+## Workflow
+
+1. Fork this repo.
+2. Create a branch: `git checkout -b my-pattern-additions`
+3. Commit: `git commit -m 'add: pattern-name with AGI context'`
+4. Push: `git push origin my-pattern-additions`
+5. Open a pull request.
+
+Thank you for helping make design patterns relevant in the AGI era!
